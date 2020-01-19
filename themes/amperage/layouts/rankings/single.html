@@ -1,0 +1,7 @@
+{{ define "main" }}
+	<article class="content">
+        <h2 class="content__title"><a href="{{.Permalink}}" data-rel="prefetch">{{.Title}}</a></h2>
+		{{ .Content }}
+		{{- partial "post/related-content.html" . -}}
+	</article>
+{{ end }}

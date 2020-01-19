@@ -1,0 +1,13 @@
+{{ define "main" }}
+    <article class="content">
+        {{.Content}}
+    </article>
+    {{ $paginator := .Paginate (where .Data.Pages "Type" "rankings") }}
+    {{ range $paginator.Pages }}
+        <article class="summary">
+            <h2 class="summary__title"><a href="{{.Permalink}}" data-rel="prefetch">{{.Title}}</a></h2>
+            <p class="summary__content">{{.Content}}</p>
+        </article>
+    {{ end }}
+    {{- partial "rankings/pagination.html" . -}}
+{{ end }}

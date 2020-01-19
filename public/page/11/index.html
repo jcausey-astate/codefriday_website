@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html ⚡ lang="">
+	<head>
+	<meta name="generator" content="Hugo 0.62.0" /><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+
+<title>{code|friday}</title>
+    
+
+    
+        
+            <link rel="prev" href="https://codefriday.cs.astate.edu/page/10/">
+        
+        
+            <link rel="next" href="https://codefriday.cs.astate.edu/page/12/">
+        
+    
+<meta name="description" content="" />
+<link rel="canonical" href="https://codefriday.cs.astate.edu/" >
+<link rel="sitemap" href="https://codefriday.cs.astate.edu/sitemap.xml" type="application/xml" /><meta property="og:title" content="{code|friday}">
+<meta property="og:url" content="https://codefriday.cs.astate.edu/">
+<meta property="og:description" content="">
+<meta property="og:image" content="https://codefriday.cs.astate.edu/logo.png">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content=""><meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="{code|friday}">
+<meta name="twitter:url" content="https://codefriday.cs.astate.edu/">
+<meta name="twitter:description" content="">
+<meta name="twitter:image" content="https://codefriday.cs.astate.edu/logo.png">
+<meta name="twitter:site" content=""><meta name="theme-color" content="#333"/>
+<link rel="manifest" href="https://codefriday.cs.astate.edu/manifest.json">
+<link rel="icon" type="image/png" sizes="32x32" href="https://codefriday.cs.astate.edu/icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://codefriday.cs.astate.edu/icons/favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://codefriday.cs.astate.edu/icons/apple-touch-icon.png"><style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes  -amp-start{from{visibility:hidden}to{visibility:visible}}</style>
+<noscript>
+    <style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style>
+</noscript><style amp-custom>
+    
+        *,*::before,*::after{box-sizing:border-box}ul[class],ol[class]{padding:0}body,h1,h2,h3,h4,p,ul[class],ol[class],li,figure,figcaption,blockquote,dl,dd{margin:0}body{min-height:100vh;scroll-behavior:smooth;text-rendering:optimizeSpeed}ul[class],ol[class]{list-style:none}a:not([class]){text-decoration-skip-ink:auto}img{max-width:100%;display:block}input,button,textarea,select{font:inherit}.chroma{background-color:#fff}.chroma .err{color:#a61717;background-color:#e3d2d2}.chroma .lntd{vertical-align:top;padding:0;margin:0;border:0}.chroma .lntable{border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block}.chroma .hl{display:block;width:100%;background-color:#ffc}.chroma .lnt{margin-right:.4em;padding:0 .4em;color:#7f7f7f}.chroma .ln{margin-right:.4em;padding:0 .4em;color:#7f7f7f}.chroma .k{color:#000;font-weight:700}.chroma .kc{color:#000;font-weight:700}.chroma .kd{color:#000;font-weight:700}.chroma .kn{color:#000;font-weight:700}.chroma .kp{color:#000;font-weight:700}.chroma .kr{color:#000;font-weight:700}.chroma .kt{color:#458;font-weight:700}.chroma .na{color:teal}.chroma .nb{color:#0086b3}.chroma .bp{color:#999}.chroma .nc{color:#458;font-weight:700}.chroma .no{color:teal}.chroma .nd{color:#3c5d5d;font-weight:700}.chroma .ni{color:purple}.chroma .ne{color:#900;font-weight:700}.chroma .nf{color:#900;font-weight:700}.chroma .nl{color:#900;font-weight:700}.chroma .nn{color:#555}.chroma .nt{color:navy}.chroma .nv{color:teal}.chroma .vc{color:teal}.chroma .vg{color:teal}.chroma .vi{color:teal}.chroma .s{color:#d14}.chroma .sa{color:#d14}.chroma .sb{color:#d14}.chroma .sc{color:#d14}.chroma .dl{color:#d14}.chroma .sd{color:#d14}.chroma .s2{color:#d14}.chroma .se{color:#d14}.chroma .sh{color:#d14}.chroma .si{color:#d14}.chroma .sx{color:#d14}.chroma .sr{color:#009926}.chroma .s1{color:#d14}.chroma .ss{color:#990073}.chroma .m{color:#099}.chroma .mb{color:#099}.chroma .mf{color:#099}.chroma .mh{color:#099}.chroma .mi{color:#099}.chroma .il{color:#099}.chroma .mo{color:#099}.chroma .o{color:#000;font-weight:700}.chroma .ow{color:#000;font-weight:700}.chroma .c{color:#998;font-style:italic}.chroma .ch{color:#998;font-style:italic}.chroma .cm{color:#998;font-style:italic}.chroma .c1{color:#998;font-style:italic}.chroma .cs{color:#999;font-weight:700;font-style:italic}.chroma .cp{color:#999;font-weight:700;font-style:italic}.chroma .cpf{color:#999;font-weight:700;font-style:italic}.chroma .gd{color:#000;background-color:#fdd}.chroma .ge{color:#000;font-style:italic}.chroma .gr{color:#a00}.chroma .gh{color:#999}.chroma .gi{color:#000;background-color:#dfd}.chroma .go{color:#888}.chroma .gp{color:#555}.chroma .gs{font-weight:700}.chroma .gu{color:#aaa}.chroma .gt{color:#a00}.chroma .gl{text-decoration:underline}.chroma .w{color:#bbb}body{display:grid;grid-template-columns:repeat(12,1fr);grid-gap:1em 1em;font-size:1.2em;font-family:pt sans,helvetica,sans-serif;line-height:1.4em;color:#000}.header,.main,.footer{grid-column:4/span 6}.header{margin-top:.3em;margin-bottom:0}.header__box{line-height:0}.header__logo{line-height:0}.header__menu{margin:0;margin-top:.2em;padding:0;display:flex;overflow:auto;justify-content:flex-end;line-height:.8em;padding-bottom:.4em;border:1px dotted #dfdfdf;background-color:#f5f5f5;border-radius:.5em;font-size:.8em;font-weight:700}.header__menu a{border-bottom:none;color:#2c5fa7}.header__menu a:hover{color:#d66e67}.header__menu__list{display:flex;flex-grow:1;flex-wrap:nowrap;align-items:right;justify-content:flex-end}.header__menu__list li{padding:0 1em;display:inline}.main{min-height:60vh}.main .pagination{margin:1.4em auto;display:flex;justify-content:space-between}.main .pagination a{border-bottom:none;color:#2c5fa7}.main .pagination a:hover{color:#d66e67}.footer{font-size:.9rem;display:flex;justify-content:space-between;flex-wrap:wrap}h1,h2,h3,h4{font-family:helvetica,pt sans,sans-serif;line-height:1.5}h1{font-size:3.5rem}h2{font-size:2.5rem}h3{font-size:2rem}h4{font-size:1.5rem}h5{font-size:1.4rem}a{color:#2c5fa7!important;text-decoration:none;transition:background .3s}a:hover{color:#2c5fa7}li{margin-top:.25em}pre,code{font-family:cutive mono,inconsolata,courier new,Monaco,monospace;font-size:12pt;background-color:#f1f1f1}blockquote{margin:inherit auto;margin-left:1em;padding:1em;border-left:5px solid #999}blockquote:before{display:none}blockquote:not(:first-of-type){margin-top:.5em}blockquote p{color:#555;font-size:1.25em;font-family:times new roman,serif}.figure{width:100%}.figure--with-caption{display:flex;border-top:6px solid #333}.figure__image--with-caption{min-width:70%}.figure__caption{background-color:#333;color:#fff;font-weight:700;padding:.5em 1em;height:min-content;word-wrap:break-word}.post-it{width:100%;padding:1.5em}.post-it--tip{background-color:#fffacd}.post-it--info{background-color:#87cefa}.post-it--danger{background-color:#f08080}.post-it__title{font-weight:700;font-size:1.5em}.product{width:max-content;position:relative;display:flex;flex-wrap:wrap;justify-content:space-around;padding:1em}.product__image{width:100%;max-height:300px;max-width:300px}.product__content{display:flex;flex-direction:column}.product__title{font-weight:700;font-size:1.5rem}.product__cta{font-weight:700;font-size:1.2em;padding:.5em;color:#fff;background-color:#333;border-bottom:unset;position:absolute;bottom:-1rem;right:-1rem}#tags{margin:0;padding:0}#tags li{display:inline}.content,.summary{width:100%}.content>*,.summary>*{margin-top:1.2em}.content>h1,.summary>h1{margin-top:.5em}.content pre,.summary pre{overflow:auto;padding:.5em}.content code,.summary code{padding:.1em}.content table,.summary table{display:block;overflow-x:auto;border-collapse:collapse;line-height:.8rem}.content table td,.content table th,.summary table td,.summary table th{border:1px solid #ddd}.content table td,.summary table td{padding:.5em 1em}.content table th,.summary table th{padding:.5rem .8rem;background-color:#333;color:#fff}.content table tr:nth-child(even),.summary table tr:nth-child(even){background-color:#f1f1f1}.content table tr:hover,.summary table tr:hover{background-color:#ddd}.content .highlight .chroma,.summary .highlight .chroma{background-color:#f1f1f1}.content .under-title,.summary .under-title{display:flex;flex-wrap:wrap;justify-content:space-between;line-height:1rem;font-size:1rem}.content .under-title__info,.content .under-title__social-share,.summary .under-title__info,.summary .under-title__social-share{align-self:center}.content .under-title__social-share,.summary .under-title__social-share{display:flex;align-items:center}.content .under-title__social-share__button,.summary .under-title__social-share__button{margin:0 .5em;border-radius:50%;background-size:60%}.content .ad,.summary .ad{display:flex;margin:1rem auto;align-content:center;width:min-content;height:min-content;min-width:320px;min-height:320px;border:1px solid #333}.content .ad__fallback,.summary .ad__fallback{display:flex;align-items:center}.content .ad__fallback p,.summary .ad__fallback p{margin:auto}.content__title>a,.summary__title>a{color:#000!important}.article-head{margin-bottom:0}.article-head a{color:#2c5fa7}@media(max-width:1200px){body{grid-gap:0}.main,.header,.footer{grid-column:1/span 12}.main,.footer{margin:.5em .75em 0 .5em}.header{margin:0}.header__menu{border:none;border-bottom:1px solid #333}h1{font-size:2.5rem}h2{font-size:2rem}h3{font-size:1.66rem}h4{font-size:1.25rem}.post-it{margin-left:0;margin-right:0}}@media(max-width:600px){.under-title__social-share{width:100%;margin-top:1.5em;justify-content:space-between}.figure{flex-direction:column-reverse}.figure--with-caption{border-top:none}.figure__caption{position:relative;max-width:100%}}
+    
+    
+        
+            
+        
+    
+</style><script async src="https://cdn.ampproject.org/v0.js"></script>
+
+</head>
+	<body><script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "",
+    "alternateName": "{code|friday}",
+    "url": "https:\/\/codefriday.cs.astate.edu"
+  }
+</script>
+
+
+
+
+  
+  
+  
+
+  
+  
+  
+
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      
+        
+        {
+          "@type": "ListItem",
+          "position":  1 ,
+          "item": {
+            "@id": "https:\/\/codefriday.cs.astate.edu",
+            "name": "Home"
+          }
+        }
+      
+        ,
+        {
+          "@type": "ListItem",
+          "position":  2 ,
+          "item": {
+            "@id": "https:\/\/codefriday.cs.astate.edu",
+            "name": "Home"
+          }
+        }
+      
+        ,
+        {
+          "@type": "ListItem",
+          "position":  3 ,
+          "item": {
+            "@id": "https:\/\/codefriday.cs.astate.edu",
+            "name": "Home"
+          }
+        }
+      
+        ,
+        {
+          "@type": "ListItem",
+          "position":  4 ,
+          "item": {
+            "@id": "https:\/\/codefriday.cs.astate.edu",
+            "name": "Home"
+          }
+        }
+      
+        ,
+        {
+          "@type": "ListItem",
+          "position":  5 ,
+          "item": {
+            "@id": "https:\/\/codefriday.cs.astate.edu",
+            "name": "Home"
+          }
+        }
+      
+        ,
+        {
+          "@type": "ListItem",
+          "position":  6 ,
+          "item": {
+            "@id": "https:\/\/codefriday.cs.astate.edu",
+            "name": "Home"
+          }
+        }
+      
+        ,
+        {
+          "@type": "ListItem",
+          "position":  7 ,
+          "item": {
+            "@id": "https:\/\/codefriday.cs.astate.edu",
+            "name": "Home"
+          }
+        }
+      
+        ,
+        {
+          "@type": "ListItem",
+          "position":  8 ,
+          "item": {
+            "@id": "https:\/\/codefriday.cs.astate.edu",
+            "name": "Home"
+          }
+        }
+      
+        ,
+        {
+          "@type": "ListItem",
+          "position":  9 ,
+          "item": {
+            "@id": "https:\/\/codefriday.cs.astate.edu",
+            "name": "Home"
+          }
+        }
+      
+        ,
+        {
+          "@type": "ListItem",
+          "position":  10 ,
+          "item": {
+            "@id": "https:\/\/codefriday.cs.astate.edu",
+            "name": "Home"
+          }
+        }
+      
+        ,
+        {
+          "@type": "ListItem",
+          "position":  11 ,
+          "item": {
+            "@id": "https:\/\/codefriday.cs.astate.edu",
+            "name": "Home"
+          }
+        }
+       ]
+  }
+</script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "itemListElement": [
+        
+           
+          {
+            "@type": "ListItem",
+            "position": "1",
+            "url": "https:\/\/codefriday.cs.astate.edu\/challenge\/",
+            "name": "{challenge}"
+          }
+        
+          , 
+          {
+            "@type": "ListItem",
+            "position": "2",
+            "url": "https:\/\/codefriday.cs.astate.edu\/topics\/",
+            "name": "{topics}"
+          }
+        
+          , 
+          {
+            "@type": "ListItem",
+            "position": "3",
+            "url": "https:\/\/codefriday.cs.astate.edu\/rankings\/2019-spring\/",
+            "name": "2019 Spring"
+          }
+        
+          , 
+          {
+            "@type": "ListItem",
+            "position": "4",
+            "url": "https:\/\/codefriday.cs.astate.edu\/rankings\/2018-fall\/",
+            "name": "2018 Fall"
+          }
+        
+          , 
+          {
+            "@type": "ListItem",
+            "position": "5",
+            "url": "https:\/\/codefriday.cs.astate.edu\/rankings\/2018-spring\/",
+            "name": "2018 Spring"
+          }
+        
+          , 
+          {
+            "@type": "ListItem",
+            "position": "6",
+            "url": "https:\/\/codefriday.cs.astate.edu\/rankings\/2017-fall\/",
+            "name": "2017 Fall"
+          }
+        
+          , 
+          {
+            "@type": "ListItem",
+            "position": "7",
+            "url": "https:\/\/codefriday.cs.astate.edu\/rankings\/2017-spring\/",
+            "name": "2017 Spring"
+          }
+        
+          , 
+          {
+            "@type": "ListItem",
+            "position": "8",
+            "url": "https:\/\/codefriday.cs.astate.edu\/rankings\/2016-fall\/",
+            "name": "2016 Fall"
+          }
+        
+          , 
+          {
+            "@type": "ListItem",
+            "position": "9",
+            "url": "https:\/\/codefriday.cs.astate.edu\/rankings\/2016-spring\/",
+            "name": "2016 Spring"
+          }
+        
+          , 
+          {
+            "@type": "ListItem",
+            "position": "10",
+            "url": "https:\/\/codefriday.cs.astate.edu\/rankings\/2015-fall\/",
+            "name": "2015 Fall"
+          }
+        
+          , 
+          {
+            "@type": "ListItem",
+            "position": "11",
+            "url": "https:\/\/codefriday.cs.astate.edu\/rankings\/2015-spring\/",
+            "name": "2015 Spring"
+          }
+        
+          , 
+          {
+            "@type": "ListItem",
+            "position": "12",
+            "url": "https:\/\/codefriday.cs.astate.edu\/rankings\/2014-fall\/",
+            "name": "2014 Fall"
+          }
+        
+          , 
+          {
+            "@type": "ListItem",
+            "position": "13",
+            "url": "https:\/\/codefriday.cs.astate.edu\/rankings\/2014-spring\/",
+            "name": "2014 Spring"
+          }
+        
+          , 
+          {
+            "@type": "ListItem",
+            "position": "14",
+            "url": "https:\/\/codefriday.cs.astate.edu\/presentation-tips\/",
+            "name": "Presentation Tips"
+          }
+        
+          , 
+          {
+            "@type": "ListItem",
+            "position": "15",
+            "url": "https:\/\/codefriday.cs.astate.edu\/tools-available\/",
+            "name": "{tools|available}"
+          }
+        
+      ]
+    }
+  </script>
+<header class="header"><header class="header__box">
+<a class="header__logo" data-rel="prefetch" href="https://codefriday.cs.astate.edu" aria-label="Go back to the homepage"><img src="/images/CodeFriday_drawing.png" />
+</a>
+</header>
+<nav class="header__menu"><ul class="header__menu__list">
+    
+        
+        <li>
+            <a href="https://codefriday.cs.astate.edu/challenge"
+                
+                >
+                <span>{challenge}</span>
+            </a>
+        </li>
+    
+        
+        <li>
+            <a href="https://codefriday.cs.astate.edu/rankings"
+                
+                >
+                <span>{hall of fame}</span>
+            </a>
+        </li>
+    
+        
+        <li>
+            <a href="https://codefriday.cs.astate.edu/topics"
+                
+                >
+                <span>{topics}</span>
+            </a>
+        </li>
+    
+</ul></nav></header>
+		<main class="main">
+	<article class="content">  
+		
+
+<p><tt><strong>{code|friday}</strong></tt> is a coding, technology, and CS-related <em>&ldquo;brown-bag session&rdquo;</em> for code discussion and tech talks held every Friday at noon in CSM-211.</p>
+
+<p>Everyone is welcome to attend, and anyone may volunteer to present a 7-minute short talk. Talks that include a line-by-line <em>one-screen code review</em> are preferred, but other tech-related talks are accepted as well. Presenters should be prepared to &ldquo;defend&rdquo; their code or topic in a 7-minute open forum following their talk. Audience members are encouraged to ask questions, make positive suggestions and observations, and interact with the presenters and other audience members during the open forum. Participation is rewarded in the form of &ldquo;tokens&rdquo; that contribute to an overall score in the <tt>{code|friday}</tt> standings and may lead to &ldquo;fabulous&rdquo; prizes<sup>1</sup>.
+<small><em><sup>1</sup> &ldquo;fabulous&rdquo; is a relative term; actual fabulousity may vary.</em></small></p>
+
+<h5 id="tt-participate-tt"><tt>{participate}</tt></h5>
+
+<p>Anyone who would like to attend <tt>{code|friday}</tt> is welcome to do so&hellip; Just come on in! If you would like to present at an upcoming <tt>{code|friday}</tt>, please send an email to Jason Causey at jcausey (at) astate.edu with the subject line &ldquo;<em>{code|friday} presentation</em>&rdquo; and a description of your topic. It is also OK to just sign-up to do a presentation on the spot — we like spontaneous code outbursts! Presentations should consist of about one &ldquo;screen&rdquo; of code, or just enough material to be covered in-depth within the 7-minute time limit. Any programming or tech content is welcome, as long as it isn&rsquo;t part of a current assignment in any of your classes (past assignments are welcome).</p>
+
+</article>
+
+		</main>
+		<footer class="footer"><div class="footer__copyright">© Arkansas State University 2020</div><div class="footer__languages">
+	
+</div></footer>
+	</body>
+</html>

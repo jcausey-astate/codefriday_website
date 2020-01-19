@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html ⚡ lang="">
+	<head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+
+<title>{topics}</title>
+    
+<meta name="description" content="" />
+<link rel="canonical" href="https://codefriday.cs.astate.edu/topics/" >
+<link rel="sitemap" href="https://codefriday.cs.astate.edu/sitemap.xml" type="application/xml" /><meta property="og:title" content="{topics}">
+<meta property="og:url" content="https://codefriday.cs.astate.edu/topics/">
+<meta property="og:description" content="">
+<meta property="og:image" content="https://codefriday.cs.astate.edu/logo.png">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content=""><meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="{topics}">
+<meta name="twitter:url" content="https://codefriday.cs.astate.edu/topics/">
+<meta name="twitter:description" content="">
+<meta name="twitter:image" content="https://codefriday.cs.astate.edu/logo.png">
+<meta name="twitter:site" content=""><meta name="theme-color" content="#333"/>
+<link rel="manifest" href="https://codefriday.cs.astate.edu/manifest.json">
+<link rel="icon" type="image/png" sizes="32x32" href="https://codefriday.cs.astate.edu/icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://codefriday.cs.astate.edu/icons/favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://codefriday.cs.astate.edu/icons/apple-touch-icon.png"><style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes  -amp-start{from{visibility:hidden}to{visibility:visible}}</style>
+<noscript>
+    <style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style>
+</noscript><style amp-custom>
+    
+        *,*::before,*::after{box-sizing:border-box}ul[class],ol[class]{padding:0}body,h1,h2,h3,h4,p,ul[class],ol[class],li,figure,figcaption,blockquote,dl,dd{margin:0}body{min-height:100vh;scroll-behavior:smooth;text-rendering:optimizeSpeed}ul[class],ol[class]{list-style:none}a:not([class]){text-decoration-skip-ink:auto}img{max-width:100%;display:block}input,button,textarea,select{font:inherit}.chroma{background-color:#fff}.chroma .err{color:#a61717;background-color:#e3d2d2}.chroma .lntd{vertical-align:top;padding:0;margin:0;border:0}.chroma .lntable{border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block}.chroma .hl{display:block;width:100%;background-color:#ffc}.chroma .lnt{margin-right:.4em;padding:0 .4em;color:#7f7f7f}.chroma .ln{margin-right:.4em;padding:0 .4em;color:#7f7f7f}.chroma .k{color:#000;font-weight:700}.chroma .kc{color:#000;font-weight:700}.chroma .kd{color:#000;font-weight:700}.chroma .kn{color:#000;font-weight:700}.chroma .kp{color:#000;font-weight:700}.chroma .kr{color:#000;font-weight:700}.chroma .kt{color:#458;font-weight:700}.chroma .na{color:teal}.chroma .nb{color:#0086b3}.chroma .bp{color:#999}.chroma .nc{color:#458;font-weight:700}.chroma .no{color:teal}.chroma .nd{color:#3c5d5d;font-weight:700}.chroma .ni{color:purple}.chroma .ne{color:#900;font-weight:700}.chroma .nf{color:#900;font-weight:700}.chroma .nl{color:#900;font-weight:700}.chroma .nn{color:#555}.chroma .nt{color:navy}.chroma .nv{color:teal}.chroma .vc{color:teal}.chroma .vg{color:teal}.chroma .vi{color:teal}.chroma .s{color:#d14}.chroma .sa{color:#d14}.chroma .sb{color:#d14}.chroma .sc{color:#d14}.chroma .dl{color:#d14}.chroma .sd{color:#d14}.chroma .s2{color:#d14}.chroma .se{color:#d14}.chroma .sh{color:#d14}.chroma .si{color:#d14}.chroma .sx{color:#d14}.chroma .sr{color:#009926}.chroma .s1{color:#d14}.chroma .ss{color:#990073}.chroma .m{color:#099}.chroma .mb{color:#099}.chroma .mf{color:#099}.chroma .mh{color:#099}.chroma .mi{color:#099}.chroma .il{color:#099}.chroma .mo{color:#099}.chroma .o{color:#000;font-weight:700}.chroma .ow{color:#000;font-weight:700}.chroma .c{color:#998;font-style:italic}.chroma .ch{color:#998;font-style:italic}.chroma .cm{color:#998;font-style:italic}.chroma .c1{color:#998;font-style:italic}.chroma .cs{color:#999;font-weight:700;font-style:italic}.chroma .cp{color:#999;font-weight:700;font-style:italic}.chroma .cpf{color:#999;font-weight:700;font-style:italic}.chroma .gd{color:#000;background-color:#fdd}.chroma .ge{color:#000;font-style:italic}.chroma .gr{color:#a00}.chroma .gh{color:#999}.chroma .gi{color:#000;background-color:#dfd}.chroma .go{color:#888}.chroma .gp{color:#555}.chroma .gs{font-weight:700}.chroma .gu{color:#aaa}.chroma .gt{color:#a00}.chroma .gl{text-decoration:underline}.chroma .w{color:#bbb}body{display:grid;grid-template-columns:repeat(12,1fr);grid-gap:1em 1em;font-size:1.2em;font-family:pt sans,helvetica,sans-serif;line-height:1.4em;color:#000}.header,.main,.footer{grid-column:4/span 6}.header{margin-top:.3em;margin-bottom:0}.header__box{line-height:0}.header__logo{line-height:0}.header__menu{margin:0;margin-top:.2em;padding:0;display:flex;overflow:auto;justify-content:flex-end;line-height:.8em;padding-bottom:.4em;border:1px dotted #dfdfdf;background-color:#f5f5f5;border-radius:.5em;font-size:.8em;font-weight:700}.header__menu a{border-bottom:none;color:#2c5fa7}.header__menu a:hover{color:#d66e67}.header__menu__list{display:flex;flex-grow:1;flex-wrap:nowrap;align-items:right;justify-content:flex-end}.header__menu__list li{padding:0 1em;display:inline}.main{min-height:60vh}.main .pagination{margin:1.4em auto;display:flex;justify-content:space-between}.main .pagination a{border-bottom:none;color:#2c5fa7}.main .pagination a:hover{color:#d66e67}.footer{font-size:.9rem;display:flex;justify-content:space-between;flex-wrap:wrap}h1,h2,h3,h4{font-family:helvetica,pt sans,sans-serif;line-height:1.5}h1{font-size:3.5rem}h2{font-size:2.5rem}h3{font-size:2rem}h4{font-size:1.5rem}h5{font-size:1.4rem}a{color:#2c5fa7!important;text-decoration:none;transition:background .3s}a:hover{color:#2c5fa7}li{margin-top:.25em}pre,code{font-family:cutive mono,inconsolata,courier new,Monaco,monospace;font-size:12pt;background-color:#f1f1f1}blockquote{margin:inherit auto;margin-left:1em;padding:1em;border-left:5px solid #999}blockquote:before{display:none}blockquote:not(:first-of-type){margin-top:.5em}blockquote p{color:#555;font-size:1.25em;font-family:times new roman,serif}.figure{width:100%}.figure--with-caption{display:flex;border-top:6px solid #333}.figure__image--with-caption{min-width:70%}.figure__caption{background-color:#333;color:#fff;font-weight:700;padding:.5em 1em;height:min-content;word-wrap:break-word}.post-it{width:100%;padding:1.5em}.post-it--tip{background-color:#fffacd}.post-it--info{background-color:#87cefa}.post-it--danger{background-color:#f08080}.post-it__title{font-weight:700;font-size:1.5em}.product{width:max-content;position:relative;display:flex;flex-wrap:wrap;justify-content:space-around;padding:1em}.product__image{width:100%;max-height:300px;max-width:300px}.product__content{display:flex;flex-direction:column}.product__title{font-weight:700;font-size:1.5rem}.product__cta{font-weight:700;font-size:1.2em;padding:.5em;color:#fff;background-color:#333;border-bottom:unset;position:absolute;bottom:-1rem;right:-1rem}#tags{margin:0;padding:0}#tags li{display:inline}.content,.summary{width:100%}.content>*,.summary>*{margin-top:1.2em}.content>h1,.summary>h1{margin-top:.5em}.content pre,.summary pre{overflow:auto;padding:.5em}.content code,.summary code{padding:.1em}.content table,.summary table{display:block;overflow-x:auto;border-collapse:collapse;line-height:.8rem}.content table td,.content table th,.summary table td,.summary table th{border:1px solid #ddd}.content table td,.summary table td{padding:.5em 1em}.content table th,.summary table th{padding:.5rem .8rem;background-color:#333;color:#fff}.content table tr:nth-child(even),.summary table tr:nth-child(even){background-color:#f1f1f1}.content table tr:hover,.summary table tr:hover{background-color:#ddd}.content .highlight .chroma,.summary .highlight .chroma{background-color:#f1f1f1}.content .under-title,.summary .under-title{display:flex;flex-wrap:wrap;justify-content:space-between;line-height:1rem;font-size:1rem}.content .under-title__info,.content .under-title__social-share,.summary .under-title__info,.summary .under-title__social-share{align-self:center}.content .under-title__social-share,.summary .under-title__social-share{display:flex;align-items:center}.content .under-title__social-share__button,.summary .under-title__social-share__button{margin:0 .5em;border-radius:50%;background-size:60%}.content .ad,.summary .ad{display:flex;margin:1rem auto;align-content:center;width:min-content;height:min-content;min-width:320px;min-height:320px;border:1px solid #333}.content .ad__fallback,.summary .ad__fallback{display:flex;align-items:center}.content .ad__fallback p,.summary .ad__fallback p{margin:auto}.content__title>a,.summary__title>a{color:#000!important}.article-head{margin-bottom:0}.article-head a{color:#2c5fa7}@media(max-width:1200px){body{grid-gap:0}.main,.header,.footer{grid-column:1/span 12}.main,.footer{margin:.5em .75em 0 .5em}.header{margin:0}.header__menu{border:none;border-bottom:1px solid #333}h1{font-size:2.5rem}h2{font-size:2rem}h3{font-size:1.66rem}h4{font-size:1.25rem}.post-it{margin-left:0;margin-right:0}}@media(max-width:600px){.under-title__social-share{width:100%;margin-top:1.5em;justify-content:space-between}.figure{flex-direction:column-reverse}.figure--with-caption{border-top:none}.figure__caption{position:relative;max-width:100%}}
+    
+    
+        
+            
+        
+    
+</style><script async src="https://cdn.ampproject.org/v0.js"></script>
+
+</head>
+	<body>
+
+
+
+
+  
+  
+  
+
+  
+  
+  
+    
+  
+
+  
+  
+  
+
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      
+        
+        {
+          "@type": "ListItem",
+          "position":  1 ,
+          "item": {
+            "@id": "https:\/\/codefriday.cs.astate.edu",
+            "name": "Home"
+          }
+        }
+      
+        ,
+        {
+          "@type": "ListItem",
+          "position":  2 ,
+          "item": {
+            "@id": "https:\/\/codefriday.cs.astate.edu\/topics\/",
+            "name": "Topics"
+          }
+        }
+       ]
+  }
+</script><script type="application/ld+json">
+  {
+    "@context":"http://schema.org",
+    "@type": "BlogPosting",
+    "image": "https:\/\/codefriday.cs.astate.edu",
+    "url": "https:\/\/codefriday.cs.astate.edu\/topics\/",
+    "headline": "{topics}",
+    "alternativeHeadline": "{topics}",
+    "dateCreated": "2020-01-14T13:32:32",
+    "datePublished": "2020-01-14T13:32:32",
+    "dateModified": "2020-01-14T13:32:32",
+    "inLanguage": "",
+    "isFamilyFriendly": "true",
+    "copyrightYear": "2020",
+    "copyrightHolder": "",
+    "accountablePerson": {
+      "@type": "Person",
+      "name": "",
+      "url": ""
+    },
+    "author": {
+      "@type": "Person",
+      "name": "",
+      "url": "https:\/\/codefriday.cs.astate.edu"
+    },
+    "creator": {
+      "@type": "Person",
+      "name": "",
+      "url": "https:\/\/codefriday.cs.astate.edu"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "{code|friday}",
+      "url": "https:\/\/codefriday.cs.astate.edu",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "\/CodeFriday_drawing.png",
+        "width":"600",
+        "height":"85"
+      }
+    },
+    "mainEntityOfPage": "https:\/\/codefriday.cs.astate.edu\/topics\/",
+    "keywords": "null",
+    "genre": "null",
+    "articleSection": "{code|friday}"
+  }
+</script><header class="header"><header class="header__box">
+<a class="header__logo" data-rel="prefetch" href="https://codefriday.cs.astate.edu" aria-label="Go back to the homepage"><img src="/images/CodeFriday_drawing.png" />
+</a>
+</header>
+<nav class="header__menu"><ul class="header__menu__list">
+    
+        
+        <li>
+            <a href="https://codefriday.cs.astate.edu/challenge"
+                
+                >
+                <span>{challenge}</span>
+            </a>
+        </li>
+    
+        
+        <li>
+            <a href="https://codefriday.cs.astate.edu/rankings"
+                
+                >
+                <span>{hall of fame}</span>
+            </a>
+        </li>
+    
+        
+        <li>
+            <a href="https://codefriday.cs.astate.edu/topics"
+                
+                >
+                <span>{topics}</span>
+            </a>
+        </li>
+    
+</ul></nav></header>
+		<main class="main">
+	<article class="content">
+		
+
+<h4><strong><tt>{previous|topics}</tt></strong></h4>
+
+<p>Below is a list of topics that have been discussed in previous <code>{code|friday}</code> meetings.  This list is meant to provide inspiration for anyone wishing to do a presentation, but unsure of what kinds of topics are welcomed.  It is OK to present new versions of things that are already on the &ldquo;previous topics&rdquo; list&mdash;especially if the topic was last discussed in a previous semester.  You might also want to check out the <a href="/presentation-tips" title="Hints for a good presentation.">tips and recommendations for a good presentation here</a>.</p>
+
+<h3 id="2019-spring">2019 Spring</h3>
+
+<ul>
+<li>Web App Game Project</li>
+<li>Role Playing Game in C++</li>
+<li>Some Processing Projects</li>
+<li>Why Complexity Matters</li>
+<li>8-puzzle: A* Search in Python</li>
+<li>Group Discussion: Fake Text, Fake Faces &mdash; Dangers of Modern Generative Networks</li>
+<li>Processing: &ldquo;Snow&rdquo; and &ldquo;Paint Melt&rdquo;</li>
+<li>Blackjack console game in C++</li>
+<li>&ldquo;Bull&rsquo;s Eye&rdquo; Game</li>
+<li>The Skip List in C++</li>
+<li>Ruby App</li>
+<li>Knight&rsquo;s Tour</li>
+<li>AutoIt/Agar Bot</li>
+<li>Group Discussion: Privacy</li>
+<li>SFML RPG Demo</li>
+<li>Julia Language</li>
+<li>Chef Language</li>
+<li>Security: Face Recognition VS. Touch (fingerprint) Authentication</li>
+<li>SFML Sorting Visualizations</li>
+<li>&ldquo;Steps&rdquo; Combinatorial Technical Interview Challenge</li>
+<li>Group Discussion: &ldquo;AI&rdquo; and Machine Learning &mdash; Where are we Headed?</li>
+</ul>
+
+<h3 id="2018-fall">2018 Fall</h3>
+
+<ul>
+<li>C++ Mini Games</li>
+<li>Ladder Logic</li>
+<li>Experiences from a Nucor Internship</li>
+<li>Skip Lists</li>
+<li>Tic Tac Toe Game in JavaScript using Canvas</li>
+<li>Numerical Computation and DDM</li>
+<li>RPN Notation on the HP-50G Calculator</li>
+<li>Fantasy Name Generator</li>
+<li>Allele Simulator</li>
+<li>Fiction/Fantasy Character Generator</li>
+<li>Neural Networks &amp; Machine Learning Online Resources</li>
+<li>Processing.js</li>
+<li>Numerical Solution of the Wave Equation</li>
+<li>A &ldquo;Hangman&rdquo; Math Game</li>
+<li>&ldquo;Selective Pit Depressions&rdquo; (a GIS algorithm to find depressions in elevation data)</li>
+<li>Python Emulator in C++</li>
+<li>Math Tutoring Program</li>
+<li>Math program update</li>
+<li>Console Dice Game</li>
+<li>&ldquo;Hangman&rdquo; Math Game Update</li>
+<li>Horse Race &ldquo;Wagering&rdquo; System</li>
+<li>Inheritance</li>
+<li>Number Guess Game</li>
+<li>Mastermind</li>
+<li>Examples in Processing</li>
+<li>Text Adventure Game</li>
+<li>DDM for 2D Elliptic Problem</li>
+<li>Spatial Memory Test in Processing</li>
+<li>Database API in C++</li>
+<li>Code Syntax Highlighter in C++</li>
+<li>Horse Race Game Update</li>
+</ul>
+
+<h3 id="2018-spring">2018 Spring</h3>
+
+<ul>
+<li>Parallel Processing Watershed Data with MPI</li>
+<li>Random Monster and Item Generation for a Text Adventure</li>
+<li>&ldquo;Tumblefolk Tempest&rdquo; Game in Clojure</li>
+<li>Rainbow Tables</li>
+<li>Machine Learning: U-Nets and CNNs</li>
+<li>Penetration Testing Tools (ft. HAK5)</li>
+<li>Intel Vaunt (glasses)</li>
+<li>Bug Bounties</li>
+<li>Discussion Forum: Machine Learning, Jobs, Internships</li>
+<li>Deleting in a Binary Search Tree</li>
+<li>Memcached Reflection Attack DDoS</li>
+<li>C++ &ldquo;Code Toys&rdquo;</li>
+<li>Neural Network from Scratch in C++</li>
+<li>C++ Game (RFC)</li>
+<li>Data Structures for a Game Inventory / Probabilistic Drops</li>
+<li>Python to HTML Parser</li>
+<li>Probability VS Chance</li>
+<li>NodeJS, Internships</li>
+<li>C++ Neural Network - Version 2</li>
+</ul>
+
+<h3 id="2017-fall">2017 Fall</h3>
+
+<ul>
+<li>Smart Mirror Software</li>
+<li>Password Generator</li>
+<li>Electron.js</li>
+<li>UWP C# App</li>
+<li>An entry for Challenge 8: Code Golf: Zig-Zag (~230b)</li>
+<li>Second entry for Challenge 8: Code Golf: Zig-Zag (195b)</li>
+<li>Tips for Competing at Code Golf</li>
+<li>Convolutional Neural Networks and Machine Learning</li>
+<li>Project Euler</li>
+<li>Helpful Sites for Learning to Program</li>
+<li>Sorting Algorithm Performance Graphs</li>
+<li>Programming with HTML Canvas</li>
+<li>Ember.js</li>
+<li>Roundtable Discussion Session</li>
+<li>Blockchains and their Applications</li>
+<li>Proof of Work and Crypto-Currency</li>
+<li>FYE Website</li>
+<li>Custom Package Manager</li>
+</ul>
+
+<h3 id="2017-spring">2017 Spring</h3>
+
+<ul>
+<li>Open discussion: Current Tech Topics</li>
+<li>2-D Fighting Game Development Idea</li>
+<li>Discussion: Programming in Primary Schools (Part I)</li>
+<li>ASMA Website Development</li>
+<li>Discussion: Gitlab Data Loss</li>
+<li>Arduino Temperature Sensor</li>
+<li>Analog Video Interface</li>
+<li>Arduino: ATTiny85 Bluetooth Power Outlet</li>
+<li>Adventure Game Program</li>
+<li>GUI Application</li>
+<li>Arduino Temperature/Shock Sensor</li>
+<li>Photon IFTT/SMS/Twitter Integration</li>
+<li>Game Code</li>
+<li>CAN-Bus Hacking</li>
+<li>Small Games</li>
+<li>RPG Battle</li>
+<li>Arduino Accelerometer</li>
+<li>Card Game</li>
+<li>SpellCard (Game Object)</li>
+<li>21 Points Game</li>
+<li>Gmail API</li>
+<li>Arduino Project: Circuit Design</li>
+<li>Questions You Should Ask in a Development Position Interview</li>
+<li>Vending Machine Simulator</li>
+<li>D&amp;D Assistant Program</li>
+</ul>
+
+<h3 id="2016-fall">2016 Fall</h3>
+
+<ul>
+<li>Detecting Emotion using Microsoft Cognitive Services</li>
+<li>Wireless Monitor for Grain Bins</li>
+<li>HTML Scraping</li>
+<li>CUDA - GPU Processing</li>
+<li>CasperJS + Gmail Spam Detection</li>
+<li>Weird Stuff in Various Languages</li>
+<li>JQuery DataTable Package</li>
+<li>Using Git and Github</li>
+<li>Code Golf Challenge: Zig-Zag pattern</li>
+<li>Dynamic Module Inclusion in PHP</li>
+<li>NSF Research Experiences for Undergraduates (REU) Summer Programs</li>
+<li>Open Discussion Forum</li>
+<li>Ask <tt>{c|f}</tt>: Web signup form.</li>
+<li>Unit Testing Overview</li>
+<li>Machine Learning: Deep Neural Networks (TensorFlow)</li>
+<li>Signal on Android Attachment Size Vulnerability</li>
+<li>Single Byte Overflow Leads to Root Privilege Escalation</li>
+<li>Hacking Video Cards: CRT Driver Project</li>
+<li>Food for Thought (various topics)</li>
+<li>Code Golfing Together (part 1)</li>
+<li>Custom Dropbox-Like Storage</li>
+<li>Web-Based Flashcards for Japanese Language</li>
+<li>ACM Competition Followup: &ldquo;Apples&rdquo; Problem</li>
+<li>Project Euler</li>
+<li>Message Encryption</li>
+<li>File Formats, Magic Numbers, and Steganography</li>
+<li>Update: Hacking Video Cards</li>
+<li>ASMA Web Site</li>
+<li>Cryptic Stuff</li>
+</ul>
+
+<h3 id="2016-spring">2016 Spring</h3>
+
+<ul>
+<li>Arduino Analog Input/Output</li>
+<li>Bluetooth Wireless Telecom/Controller</li>
+<li>Cards Against Humanity App</li>
+<li>Arduino LED Controller</li>
+<li>Python Occupancy Counter</li>
+<li>Web Components</li>
+<li>No Man&rsquo;s Sky</li>
+<li>Material Design Lite</li>
+<li>Software Defined Radio</li>
+<li>Rock Paper Scissors</li>
+<li>Apple vs FBI</li>
+<li>Cards Against Humanity App Update</li>
+<li>Custom Smart Pointers</li>
+<li>REST</li>
+<li>Group Discussion: Ransomware</li>
+<li>Group Discussion: SSL Registrar Vulnerabilities</li>
+<li>Neural Network Basics</li>
+<li>Machine Learning: Reverse-Engineering the Brain</li>
+<li>Coding Tools: CodeAnywhere</li>
+<li>Coding Tools: Git (code version control) and Github</li>
+<li>Decimal-to-Binary Converter in C++</li>
+<li>Cloud-Based Tetris</li>
+<li>Distributed Computing &amp; Neural Networks</li>
+<li>Esoteric Algorihms</li>
+<li>Tabletop RPG Program</li>
+</ul>
+
+<h3 id="2015-fall">2015 Fall</h3>
+
+<ul>
+<li>League of Legends Web App</li>
+<li>Pac-Man in JavaScript</li>
+<li>Custom Amazon Echo App</li>
+<li>Keeping Track of Useful Code</li>
+<li>&ldquo;MASH&rdquo; Game with <code>rand()</code></li>
+<li>MVC in .Net</li>
+<li>Line Follower Robot MCU Code &amp; Gate Logic</li>
+<li>Decimal-to-Binary Converter</li>
+<li>Music Notation Translator</li>
+<li>JavaScript+HTML5 Canvas: Sprites, etc. for a Game</li>
+<li>Sudoku Puzzle Solver</li>
+<li>Caesar&rsquo;s Cipher <a href="https://codefriday.cs.astate.edu/challenge/code_golf%3A_caesar_cipher"><tt>{challenge}</tt></a></li>
+<li>Bank Account Manager</li>
+<li>Chrome Extension: &ldquo;Embeddit&rdquo;</li>
+<li>JavaScript+HTML5 Canvas Game (continued)</li>
+<li>Doubly-Linked List Node with only One Pointer</li>
+<li>Random Password Generator</li>
+<li>Oxide Layer Thickness Calculator</li>
+<li>Encoding and Cracking Caesar&rsquo;s Cipher</li>
+<li>Assorted Python Tips</li>
+<li>Arduino Timer Code</li>
+<li>Modern Random Generation in C++11</li>
+<li>Text-Based Adventure Game in Python</li>
+<li>Presidential Election Simulator</li>
+<li>Variable Shift Encryption Tool</li>
+<li>Text-Based Adventure in C++</li>
+</ul>
+
+<h3 id="2015-spring">2015 Spring</h3>
+
+<ul>
+<li>Browser Extension for Google Chrome</li>
+<li>DNA Sequence Assembly</li>
+<li>QML-Based Game Item System</li>
+<li>&ldquo;SleepSort&rdquo; in Go</li>
+<li>QML on Android</li>
+<li>Strongly Connected Component Algorithm (Graph Theory)</li>
+<li>Porting a Library from PHP to C++</li>
+<li>A QML-based Game for Android</li>
+<li>Simple Graphics with OpenGL</li>
+<li>Magic: The Gathering Mana Calculator</li>
+<li>Process Management</li>
+<li>Dynamic Makefile</li>
+<li>Binary Literals in C++98</li>
+<li>Cards Against Humanity in Node.js</li>
+<li>OpenGL Images, Positioning, Tiling</li>
+<li>Implementing Event-Handling</li>
+<li>Event Processing in RPG Maker</li>
+<li>The PImpl Design Pattern</li>
+<li>Object-Oriented Sockets</li>
+<li>MASH Game</li>
+<li>Laser Harp</li>
+<li>N-Queens</li>
+<li>Event Management in a C++ Framework</li>
+<li>ASCII-art Performance</li>
+<li>Blaster Worm</li>
+<li>Entry for <a href="../challenge/code_golf%3A_passwords" title="Code Golf Challenge: Password Generator">Challenge: Code Golf (Passwords)</a></li>
+<li>PyGames Demonstration</li>
+<li>D&amp;D 5th Ed. Character Creator</li>
+<li>Laser Harp (update)</li>
+<li>Message Authentication</li>
+<li>D&amp;D Character Creator Revisited</li>
+<li>Logic Puzzle</li>
+</ul>
+
+<h3 id="2014-fall">2014 Fall</h3>
+
+<ul>
+<li>Classes &amp; Methods in C++ vs. Java</li>
+<li>Class and Test Program in C++</li>
+<li>Bash Scripting</li>
+<li>Dynamic Memory</li>
+<li>Bash Scripting (part 2)</li>
+<li>Arduino</li>
+<li>Class Interfaces</li>
+<li>Palindrome Detector (<code>if</code>-<code>else</code> vs. <code>while</code>)</li>
+<li>Improving Code with C++11</li>
+<li>QML-Based Visual Novel</li>
+<li>IEEE-Extreme Problem</li>
+<li>Challenge: Code Golf (Checkerboard) 1</li>
+<li>Dungeons &amp; Dragons Dice Roller</li>
+<li>Arduino (part 2)</li>
+<li><code>gdb</code> Example</li>
+<li>Body Mass Index Calculator (C++)</li>
+<li>Traversing Directory Trees</li>
+<li><code>for</code> loops - Wave ASCII-art</li>
+<li>RPG Maker</li>
+<li>Modfwango (PHP)</li>
+<li>Arduino (part 3)</li>
+<li>QML (part 2)</li>
+<li>Reverse <code>echo</code> (PHP/Modfwango)</li>
+<li>Web Application Example</li>
+<li>Data Structures (C++)</li>
+<li>RC4 &amp; &ldquo;Spritz&rdquo; Hashing Algorithms</li>
+<li>Tic-Tac-Toe (C++/QML)</li>
+<li>MATLAB</li>
+<li>Tic-Tac-Toe (Part 2)</li>
+<li>Astate Schedule Planner Update (Meteor.js)</li>
+<li>Java on Mac Issue</li>
+<li>Challenge: Peak Finding</li>
+</ul>
+
+<h3 id="2014-spring">2014 Spring</h3>
+
+<ul>
+<li>PHP + SQL: Cumulative &amp; Exclusive Search</li>
+<li>AState Schedule Planner (HTML + PHP)</li>
+<li>Simple I/O program in C++ vs. Java</li>
+<li>Swapping Values using XOR (C++)</li>
+<li>Hexadecimal Calculator</li>
+<li>Credit Card Security</li>
+<li>Calculator in C++</li>
+<li>Apple&rsquo;s <code>goto fail</code> Bug</li>
+<li>Flash-Based Game</li>
+<li>Key-Press Events</li>
+<li>GNU&rsquo;s <code>gnutls</code> SSL Bug</li>
+<li>Storage Media</li>
+<li>Ruby-Based Game</li>
+<li>CUDA (Parallel Programming)</li>
+<li>OpenSSL&rsquo;s Heartbleed Bug</li>
+<li>Arrays (C++)</li>
+<li><code>continue</code> Statement, C++11 Range-Based <code>for</code> Loops</li>
+<li>Simple C++ Program</li>
+<li>C++ Code Debugging</li>
+<li>C++11 <code>override</code> and <code>final</code></li>
+<li>C++11 <code>tuple</code>s</li>
+<li>Calorie Calculator</li>
+<li>Graphical Programming</li>
+<li>Activity Tracker (JavaScript)</li>
+<li>Astate Schedule Planner (Part 2) (Meteor.js)</li>
+<li>Go Language Overview</li>
+<li>Encryption</li>
+<li>MinX</li>
+</ul>
+
+</article>
+
+		</main>
+		<footer class="footer"><div class="footer__copyright">© Arkansas State University 2020</div><div class="footer__languages">
+	
+</div></footer>
+	</body>
+</html>

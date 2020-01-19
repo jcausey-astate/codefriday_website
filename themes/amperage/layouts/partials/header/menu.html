@@ -1,0 +1,12 @@
+<ul class="header__menu__list">
+    {{ range .Site.Menus.main }}
+        {{ $url := trim .URL "/" | absURL }}
+        <li>
+            <a href="{{ $url }}"
+                {{ with .Identifier }}
+                {{else}} data-rel="prefetch" {{ end }}>
+                {{ .Pre }}<span>{{ .Name }}</span>
+            </a>
+        </li>
+    {{ end }}
+</ul>

@@ -1,0 +1,6 @@
+{{ define "main" }}
+	<article class="content">  
+		{{ .Content }}
+		{{- partial "post/related-content.html" . -}}
+	</article>
+{{ end }}

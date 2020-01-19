@@ -1,0 +1,70 @@
+# Default language if you have a multi-language setup
+DefaultContentLanguage = "en"
+
+baseURL = "https://codefriday.cs.astate.edu"
+
+theme = "amperage"
+
+pygmentsUseClasses = true
+
+# Number of posts shown per page (default: 10)
+paginate = 1
+
+# Language sections
+[language]
+
+# Menu elements
+[[menu.main]]
+    identifier = "challenge"
+    name = "{challenge}"
+    url = "/challenge"
+    weight = 8
+[[menu.main]]
+    identifier = "rankings"
+    name = "{hall of fame}"
+    url = "/rankings"
+    weight = 9
+[[menu.main]]
+    identifier = "topics"
+    name = "{topics}"
+    url = "/topics"
+    weight = 10
+
+# Enable only tags taxonomy
+[taxonomies]
+    tag = "tags"
+
+[params]
+    copyright = "Arkansas State University" # Name shown on footer copyright
+    themeColor = "#333" # Theme color displayed on mobile browsers
+
+    # Default AMP components for the whole site
+    ampElements = [ ]
+
+    # Google Analytics code
+    # googleAnalytics = ""
+
+    # Adsense publisher code
+    # adsensePublisher = ""
+
+    # Comments Iframe URL
+    # commentsEmbedUrl = ""
+
+    # Social sites for metatags
+    facebookSite = ""
+    twitterSite = ""
+
+    # Structured data elements
+    socialProfiles = [ ]
+
+    alternatePageName = "{code|friday}"
+    organizationLogo = "/CodeFriday_drawing.png"
+    organizationName = "{code|friday}"
+
+    publisherName = "{code|friday}"
+    publisherLogo = "/CodeFriday_drawing.png"
+    publisherLogoWidth = 600
+    publisherLogoHeight = 85
+
+[markup]
+    defaultMarkdownHandler = "blackfriday"

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{code|friday} on </title>
+    <link>https://codefriday.cs.astate.edu/</link>
+    <description>Recent content in {code|friday} on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 14 Jan 2020 13:32:32 -0600</lastBuildDate>
+    
+	<atom:link href="https://codefriday.cs.astate.edu/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>{challenge}</title>
+      <link>https://codefriday.cs.astate.edu/challenge/</link>
+      <pubDate>Tue, 14 Jan 2020 13:32:32 -0600</pubDate>
+      
+      <guid>https://codefriday.cs.astate.edu/challenge/</guid>
+      <description>{challenge} The {code|friday} challenges have begun! If you complete a {c|f} Challenge, email your source code and any notes or other information to jcausey (at) astate.edu with the subject line &#34;{code|friday} challenge&#34;. Good luck!
+Code_Friday/Challenge 8: Code Golf: Zig-Zag  This challenge was posed by Jason Causey during the 23 September, 2016 {code|friday}, and consists of producing a repeating &amp;ldquo;Zig-Zag&amp;rdquo; pattern on the console screen while keeping the program as short as possible.</description>
+    </item>
+    
+    <item>
+      <title>{topics}</title>
+      <link>https://codefriday.cs.astate.edu/topics/</link>
+      <pubDate>Tue, 14 Jan 2020 13:32:32 -0600</pubDate>
+      
+      <guid>https://codefriday.cs.astate.edu/topics/</guid>
+      <description>{previous|topics} Below is a list of topics that have been discussed in previous {code|friday} meetings. This list is meant to provide inspiration for anyone wishing to do a presentation, but unsure of what kinds of topics are welcomed. It is OK to present new versions of things that are already on the &amp;ldquo;previous topics&amp;rdquo; list&amp;mdash;especially if the topic was last discussed in a previous semester. You might also want to check out the tips and recommendations for a good presentation here.</description>
+    </item>
+    
+    <item>
+      <title>2019 Spring</title>
+      <link>https://codefriday.cs.astate.edu/rankings/2019-spring/</link>
+      <pubDate>Fri, 10 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://codefriday.cs.astate.edu/rankings/2019-spring/</guid>
+      <description>Click to see the cumulative final results, following all &lt;code&gt;{code|friday}&lt;/code&gt; events for the 2019 Spring semester.</description>
+    </item>
+    
+    <item>
+      <title>2018 Fall</title>
+      <link>https://codefriday.cs.astate.edu/rankings/2018-fall/</link>
+      <pubDate>Sat, 15 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://codefriday.cs.astate.edu/rankings/2018-fall/</guid>
+      <description>Click to see the cumulative final results, following all &lt;code&gt;{code|friday}&lt;/code&gt; events for the 2018 Fall semester.</description>
+    </item>
+    
+    <item>
+      <title>2018 Spring</title>
+      <link>https://codefriday.cs.astate.edu/rankings/2018-spring/</link>
+      <pubDate>Tue, 15 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://codefriday.cs.astate.edu/rankings/2018-spring/</guid>
+      <description>Click to see the cumulative final results, following all &lt;code&gt;{code|friday}&lt;/code&gt; events for the 2018 Spring semester.</description>
+    </item>
+    
+    <item>
+      <title>2017 Fall</title>
+      <link>https://codefriday.cs.astate.edu/rankings/2017-fall/</link>
+      <pubDate>Fri, 15 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://codefriday.cs.astate.edu/rankings/2017-fall/</guid>
+      <description>Click to see the cumulative final results, following all &lt;code&gt;{code|friday}&lt;/code&gt; events for the 2017 Fall semester.</description>
+    </item>
+    
+    <item>
+      <title>2017 Spring</title>
+      <link>https://codefriday.cs.astate.edu/rankings/2017-spring/</link>
+      <pubDate>Mon, 15 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://codefriday.cs.astate.edu/rankings/2017-spring/</guid>
+      <description>Click to see the cumulative final results, following all &lt;code&gt;{code|friday}&lt;/code&gt; events for the 2017 Spring semester.</description>
+    </item>
+    
+    <item>
+      <title>2016 Fall</title>
+      <link>https://codefriday.cs.astate.edu/rankings/2016-fall/</link>
+      <pubDate>Thu, 15 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://codefriday.cs.astate.edu/rankings/2016-fall/</guid>
+      <description>Click to see the cumulative final results, following all &lt;code&gt;{code|friday}&lt;/code&gt; events for the 2016 Fall semester.</description>
+    </item>
+    
+    <item>
+      <title>2016 Spring</title>
+      <link>https://codefriday.cs.astate.edu/rankings/2016-spring/</link>
+      <pubDate>Sun, 15 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://codefriday.cs.astate.edu/rankings/2016-spring/</guid>
+      <description>Click to see the cumulative final results, following all &lt;code&gt;{code|friday}&lt;/code&gt; events for the 2016 Spring semester.</description>
+    </item>
+    
+    <item>
+      <title>2015 Fall</title>
+      <link>https://codefriday.cs.astate.edu/rankings/2015-fall/</link>
+      <pubDate>Tue, 15 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://codefriday.cs.astate.edu/rankings/2015-fall/</guid>
+      <description>Click to see the cumulative final results, following all &lt;code&gt;{code|friday}&lt;/code&gt; events for the 2015 Fall semester.</description>
+    </item>
+    
+    <item>
+      <title>2015 Spring</title>
+      <link>https://codefriday.cs.astate.edu/rankings/2015-spring/</link>
+      <pubDate>Tue, 15 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://codefriday.cs.astate.edu/rankings/2015-spring/</guid>
+      <description>Click to see the cumulative final results, following all &lt;code&gt;{code|friday}&lt;/code&gt; events for the 2015 Spring semester.</description>
+    </item>
+    
+    <item>
+      <title>2014 Fall</title>
+      <link>https://codefriday.cs.astate.edu/rankings/2014-fall/</link>
+      <pubDate>Mon, 15 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://codefriday.cs.astate.edu/rankings/2014-fall/</guid>
+      <description>Click to see the cumulative final results, following all &lt;code&gt;{code|friday}&lt;/code&gt; events for the 2014 Fall semester.</description>
+    </item>
+    
+    <item>
+      <title>2014 Spring</title>
+      <link>https://codefriday.cs.astate.edu/rankings/2014-spring/</link>
+      <pubDate>Thu, 15 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://codefriday.cs.astate.edu/rankings/2014-spring/</guid>
+      <description>Click to see the cumulative final results, following all &lt;code&gt;{code|friday}&lt;/code&gt; events for the 2014 Spring semester.</description>
+    </item>
+    
+    <item>
+      <title>Presentation Tips</title>
+      <link>https://codefriday.cs.astate.edu/presentation-tips/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://codefriday.cs.astate.edu/presentation-tips/</guid>
+      <description>Although there are no strict &amp;ldquo;rules&amp;rdquo; about what you must do during a {code|friday} presentation (other than the 7-minute time limit), the following tips can make your presentation more successful and memorable:
+ Be prepared to use the technology.
+The tools and technology available in the classroom is listed here. It would be a good idea to take a look at the list and make sure to use the technology to its maximum potential.</description>
+    </item>
+    
+    <item>
+      <title>{tools|available}</title>
+      <link>https://codefriday.cs.astate.edu/tools-available/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://codefriday.cs.astate.edu/tools-available/</guid>
+      <description>Projector The projector will accept HDMI input from an external source (such as a laptop). We have adapters to many common display interfaces including DisplayPort, Mini DisplayPort, and VGA.
+The projector also works with the Document Camera and the room&amp;rsquo;s desktop PC (see below). You can switch between all three inputs.
+Document Camera The room has a document camera that can be used for displaying written (paper) material, we well as hardware projects.</description>
+    </item>
+    
+  </channel>
+</rss>

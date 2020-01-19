@@ -1,0 +1,10 @@
+{
+  "name": "{code|friday}",
+  "short_name": "{c|f}",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fff",
+  "theme_color": "#333",
+  "description": "A weekly discussion forum for code and technology.",
+  "icons":[ ]
+}
