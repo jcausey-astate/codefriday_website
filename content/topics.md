@@ -10,6 +10,13 @@ title = "{topics}"
 
 Below is a list of topics that have been discussed in previous `{code|friday}` meetings.  This list is meant to provide inspiration for anyone wishing to do a presentation, but unsure of what kinds of topics are welcomed.  It is OK to present new versions of things that are already on the "previous topics" list&mdash;especially if the topic was last discussed in a previous semester.  You might also want to check out the [tips and recommendations for a good presentation here](/presentation-tips "Hints for a good presentation.").
 
+<!-- TODO
+### 2019 Fall
+* ...
+* ...
+* ...
+ -->
+
 ### 2019 Spring
 * Web App Game Project
 * Role Playing Game in C++

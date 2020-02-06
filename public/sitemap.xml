@@ -16,12 +16,17 @@
     </url>
     
     <url>
-        <loc>https://codefriday.cs.astate.edu/rankings/2019-spring/</loc>
-        <lastmod>2019-05-10T00:00:00+00:00</lastmod>
+        <loc>https://codefriday.cs.astate.edu/rankings/2019-fall/</loc>
+        <lastmod>2019-12-10T00:00:00+00:00</lastmod>
     </url>
     
     <url>
         <loc>https://codefriday.cs.astate.edu/rankings/</loc>
+        <lastmod>2019-12-10T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>https://codefriday.cs.astate.edu/rankings/2019-spring/</loc>
         <lastmod>2019-05-10T00:00:00+00:00</lastmod>
     </url>
     
