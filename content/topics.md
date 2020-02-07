@@ -10,12 +10,33 @@ title = "{topics}"
 
 Below is a list of topics that have been discussed in previous `{code|friday}` meetings.  This list is meant to provide inspiration for anyone wishing to do a presentation, but unsure of what kinds of topics are welcomed.  It is OK to present new versions of things that are already on the "previous topics" list&mdash;especially if the topic was last discussed in a previous semester.  You might also want to check out the [tips and recommendations for a good presentation here](/presentation-tips "Hints for a good presentation.").
 
-<!-- TODO
+
 ### 2019 Fall
-* ...
-* ...
-* ...
- -->
+* Fantasy Name Generator
+* RGB Mod for CRT Controller
+* The Rust Language / Examples
+* Maze Solving / Path Finding
+* N-Queens Problem
+* Genetic Algorithm
+* Discussion: Ethics in CS
+* Current State and Dangers of General VS Specialized AI
+* Current State and Dangers of General VS Specialized AI (pt. 2)
+* Buffer Overflow Demonstration: Pokemon
+* Discussion: Current Tech Topics
+* Python `turtle` Graphics
+* Closures in Python
+* AI for a Monster Dungeon Crawl Game
+* Web Scraping in Python with BeautifulSoup
+* AI for Connect Four
+* "Hero" Game Overview (Python)
+* Tracing Alphabetical Characters with Python `turtle`
+* The "Monty Hall Problem" Simulated (C++)
+* Blackjack Game (C++)
+* History of the User Interface (in computing)
+* C++ Undefined Behavior "Find the Bug" Discussion
+* "Hi/Lo" Game Demo
+* Security Projects Demo
+
 
 ### 2019 Spring
 * Web App Game Project
