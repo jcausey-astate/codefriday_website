@@ -2,12 +2,12 @@
 	<article class="content">
 		{{.Content}}
 	</article>
-	{{ $paginator := .Paginate (where .Data.Pages "Type" "challenge") }}
-	{{ range $paginator.Pages }}
+	<!-- {{ $paginator := .Paginate (where .Data.Pages "Type" "challenge") 20 }} -->
+	<!-- {{ range where .Data.Pages "Type" "challenge" }} -->
 		<article class="summary">
-			<h2 class="summary__title"><a href="{{.Permalink}}" data-rel="prefetch">{{.Title}}</a></h2>
-			<p class="summary__content">{{.Summary}}</p>
+			<!-- <h2 class="summary__title"><a href="{{.Permalink}}" data-rel="prefetch">{{.Title}}</a></h2> -->
+			<!-- <p class="summary__content">{{.Summary}}</p> -->
 		</article>
-	{{ end }}
-	{{- partial "page/pagination.html" . -}}
+	<!-- {{ end }} -->
+	<!-- {{- partial "page/pagination.html" . -}} -->
 {{ end }}

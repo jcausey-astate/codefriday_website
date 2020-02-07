@@ -10,27 +10,23 @@ title = "{challenge}"
 
 <p>The <tt>{code|friday}</tt> challenges have begun! If you complete a <strong>{c|f} Challenge</strong>, email your source code and any notes or other information to jcausey (at) astate.edu with the subject line "<em>{code|friday} challenge</em>". Good luck!</p>
 
-<h5 class='article-head'><a href="challenge/code_golf%3A_zig-zag" title="Code Friday/Challenge 8: Code Golf: Zig-Zag">Code_Friday/Challenge 8: Code Golf: Zig-Zag</a> </h5>
+<h5 class='article-head'><a href="/challenges/code_golf_zig-zag" title="Code Friday/Challenge 7: Code Golf: Zig-Zag">Code_Friday/Challenge 7: Code Golf: Zig-Zag</a> </h5>
 <p>This challenge was posed by Jason Causey during the 23 September, 2016 <tt>{code|friday}</tt>, and consists of producing a repeating "Zig-Zag" pattern on the console screen while keeping the program as short as possible.<br /><em>Paradigm: Structured Programming<br />
     Difficulty Level: Beginner. </em></p>
 
-<h5 class='article-head'><a href="challenge/pizza_order" title="Code Friday/Challenge 7: Pizza Order">Code_Friday/Challenge 7: Pizza Order</a> </h5>
-<p>This challenge was posed by Jason Causey during the 12 February, 2016 <tt>{code|friday}</tt>, and consists of determining the best minimum pizza order given the preferences of a group of people.<br /><em>Paradigm: Structured Programming/OOP/Mixed<br />
-    Difficulty Level: Intermediate. </em></p>
-
-<h5 class='article-head'><a href="challenge/code_golf%3A_caesar_cipher" title="Code Friday/Challenge 6: Code Golf: Caesar's Cipher">Code_Friday/Challenge 6: Code Golf: Caesar's Cipher</a> </h5>
+<h5 class='article-head'><a href="/challenges/code_golf_caesars_cipher" title="Code Friday/Challenge 6: Code Golf: Caesar's Cipher">Code_Friday/Challenge 6: Code Golf: Caesar's Cipher</a> </h5>
 <p>This challenge was posed by Jason Causey (on a suggestion from Ian Bitts) during the 25 September, 2015 <tt>{code|friday}</tt>, and consists of encrypting and decrypting a short message using the Caesar Cipher with a selectable key.<br /><em>Paradigm: Structured Programming<br />
     Difficulty Level: Beginner/Intermediate. </em></p>
 
-<h5 class='article-head'><a href="challenge/n-queens" title="Code Friday/Challenge 5: N-Queens">Code_Friday/Challenge 5: N-Queens</a> </h5>
+<h5 class='article-head'><a href="/challenges/n_queens" title="Code Friday/Challenge 5: N-Queens">Code_Friday/Challenge 5: N-Queens</a> </h5>
 <p>This challenge was posed by Ian Bitts during the 20 March, 2015 <tt>{code|friday}</tt>, and consists of placing <math>n</math> queens on a chessboard of size <math>n &times; n</math>.<br /><em>Paradigm: Structured Programming<br />
     Difficulty Level: Beginner/Intermediate. </em></p>
 
-<h5 class='article-head'><a href="challenge/code_golf%3A_passwords" title="Code Friday/Challenge 4: Code Golf: Passwords">Code_Friday/Challenge 4: Code Golf: Passwords</a> </h5>
+<h5 class='article-head'><a href="/challenges/code_golf_passwords" title="Code Friday/Challenge 4: Code Golf: Passwords">Code_Friday/Challenge 4: Code Golf: Passwords</a> </h5>
 <p>This challenge was posed by Mr. Causey for the 13 March, 2015 <tt>{code|friday}</tt>, and consists of generating a strong 16-character password using as little code as possible.<br /><em>Paradigm: Structured Programming<br />
     Difficulty Level: Beginner/Intermediate. </em></p>
 
-<h5 class='article-head'><a href="challenge/peak-finding" title="Code Friday/Challenge 3: Peak Finding">Code_Friday/Challenge 3: Peak Finding</a> </h5>
+<h5 class='article-head'><a href="/challenges/peak_finding" title="Code Friday/Challenge 3: Peak Finding">Code_Friday/Challenge 3: Peak Finding</a> </h5>
 <p>This challenge consists of finding all peak values in a timeseries dataset, determining some information about periodicity, and predicting the timing of future peaks.<br /><em>Paradigm: Structured Programming or OOP<br />
     Difficulty Level: Beginner/Intermediate </em></p>
 

@@ -1,11 +1,11 @@
-+++
-draft = true
-date = "{{ .Date }}"
-publishdate = "{{ .Date }}"
+---
+draft:  true
+date: "{{ .Date }}"
+publishdate: "{{ .Date }}"
 
-title = "{{ replace .Name "-" " " | title }}"
-summary = ""
+title: "{{ replace .Name "-" " " | title }}"
+summary: ""
 
-tags = []
-keywords = []
-+++
+tags: []
+keywords: []
+---

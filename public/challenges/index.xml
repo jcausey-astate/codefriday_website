@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Challenges on </title>
+    <link>https://codefriday.cs.astate.edu/challenges/</link>
+    <description>Recent content in Challenges on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 15 Sep 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://codefriday.cs.astate.edu/challenges/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Challenge 7: Code Golf: ZigZag</title>
+      <link>https://codefriday.cs.astate.edu/challenges/code_golf_zig-zag/</link>
+      <pubDate>Thu, 15 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://codefriday.cs.astate.edu/challenges/code_golf_zig-zag/</guid>
+      <description>This challenge consists of consists of producing a repeating &amp;ldquo;Zig-Zag&amp;rdquo; pattern on the console screen while keeping the program as short as possible.&lt;br&gt;
+&lt;strong&gt;Paradigm:&lt;/strong&gt; &lt;em&gt;Structured Programming&lt;/em&gt;&lt;br&gt;
+&lt;strong&gt;Difficulty Level:&lt;/strong&gt; &lt;em&gt;Beginner&lt;/em&gt;</description>
+    </item>
+    
+    <item>
+      <title>Challenge 5: N-Queens</title>
+      <link>https://codefriday.cs.astate.edu/challenges/n_queens/</link>
+      <pubDate>Fri, 20 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://codefriday.cs.astate.edu/challenges/n_queens/</guid>
+      <description>This challenge consists of placing &lt;math&gt;n&lt;/math&gt; queens on a chessboard of size &lt;math&gt;n &amp;times; n&lt;/math&gt;.&lt;br&gt;
+&lt;strong&gt;Paradigm:&lt;/strong&gt; &lt;em&gt;Structured Programming&lt;/em&gt;&lt;br&gt;
+&lt;strong&gt;Difficulty Level:&lt;/strong&gt; &lt;em&gt;Beginner/Intermediate&lt;/em&gt;</description>
+    </item>
+    
+    <item>
+      <title>Challenge 6: Code Golf: Caesar&#39;s Cipher</title>
+      <link>https://codefriday.cs.astate.edu/challenges/code_golf_caesars_cipher/</link>
+      <pubDate>Fri, 20 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://codefriday.cs.astate.edu/challenges/code_golf_caesars_cipher/</guid>
+      <description>This challenge consists of encrypting and decrypting a short message using the Caesar Cipher with a selectable key.&lt;br&gt;
+&lt;strong&gt;Paradigm:&lt;/strong&gt; &lt;em&gt;Structured Programming&lt;/em&gt;&lt;br&gt;
+&lt;strong&gt;Difficulty Level:&lt;/strong&gt; &lt;em&gt;Intermediate&lt;/em&gt;</description>
+    </item>
+    
+    <item>
+      <title>Challenge 4: Code Golf: Passwords</title>
+      <link>https://codefriday.cs.astate.edu/challenges/code_golf_passwords/</link>
+      <pubDate>Fri, 13 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://codefriday.cs.astate.edu/challenges/code_golf_passwords/</guid>
+      <description>This challenge consists of generating a strong 16-character password
+using as little code as possible.&lt;br&gt;
+&lt;strong&gt;Paradigm:&lt;/strong&gt; &lt;em&gt;Structured Programming or OOP&lt;/em&gt;&lt;br&gt;
+&lt;strong&gt;Difficulty Level:&lt;/strong&gt; &lt;em&gt;Beginner/Intermediate&lt;/em&gt;</description>
+    </item>
+    
+    <item>
+      <title>Challenge 3: Peak Finding</title>
+      <link>https://codefriday.cs.astate.edu/challenges/peak_finding/</link>
+      <pubDate>Fri, 03 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://codefriday.cs.astate.edu/challenges/peak_finding/</guid>
+      <description>This challenge consists of finding all peak values in a timeseries dataset, determining some information about periodicity,
+and predicting the timing of future peaks.&lt;br&gt;
+&lt;strong&gt;Paradigm:&lt;/strong&gt; &lt;em&gt;Structured Programming or OOP&lt;/em&gt;&lt;br&gt;
+&lt;strong&gt;Difficulty Level:&lt;/strong&gt; &lt;em&gt;Beginner/Intermediate&lt;/em&gt;</description>
+    </item>
+    
+    <item>
+      <title>Challenge 2: Code Golf: Checkerboard</title>
+      <link>https://codefriday.cs.astate.edu/challenges/code_golf_checkerboard/</link>
+      <pubDate>Fri, 26 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://codefriday.cs.astate.edu/challenges/code_golf_checkerboard/</guid>
+      <description>This challenge consists of attempting to write the shortest possible C++ program (measured in characters of source code) that
+will print an 8x8 grid representing a checkerboard to the screen.&lt;br&gt;
+&lt;strong&gt;Paradigm:&lt;/strong&gt; &lt;em&gt;Structured Programming&lt;/em&gt;&amp;gt;&lt;br&gt;
+&lt;strong&gt;Difficulty Level:&lt;/strong&gt; &lt;em&gt;Beginner&lt;/em&gt;</description>
+    </item>
+    
+    <item>
+      <title>Challenge 1: Networking Headers</title>
+      <link>https://codefriday.cs.astate.edu/challenges/networking_headers/</link>
+      <pubDate>Fri, 14 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://codefriday.cs.astate.edu/challenges/networking_headers/</guid>
+      <description>This challenge was posed by Dr. Su during the 14 February, 2014 &lt;tt&gt;{code|friday}&lt;/tt&gt;, and consists
+of a text buffering and processing challenge based on a real-world networking problem.&lt;br&gt;
+&lt;strong&gt;Paradigm:&lt;/strong&gt; &lt;em&gt;Structured Programming&lt;/em&gt;&amp;gt;&lt;br&gt;
+&lt;strong&gt;Difficulty Level:&lt;/strong&gt; &lt;em&gt;Intermediate&lt;/em&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
