@@ -10,6 +10,14 @@ title = "{topics}"
 
 Below is a list of topics that have been discussed in previous `{code|friday}` meetings.  This list is meant to provide inspiration for anyone wishing to do a presentation, but unsure of what kinds of topics are welcomed.  It is OK to present new versions of things that are already on the "previous topics" list&mdash;especially if the topic was last discussed in a previous semester.  You might also want to check out the [tips and recommendations for a good presentation here](/presentation-tips "Hints for a good presentation.").
 
+### 2020 Spring
+* "Hangman" Math Games
+* Maze Game
+* Active Shell (C++ project)
+* Webpage for Online Game (HTML project)
+* Cross-Site Scripting (XSS) Vulnerability Demonstration
+* Buffer Overflow in `sudo` Tool
+* Discussion: IoT and Cloud Software Privacy Trade-Offs
 
 ### 2019 Fall
 * Fantasy Name Generator
