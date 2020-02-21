@@ -18,6 +18,9 @@ Below is a list of topics that have been discussed in previous `{code|friday}` m
 * Cross-Site Scripting (XSS) Vulnerability Demonstration
 * Buffer Overflow in `sudo` Tool
 * Discussion: IoT and Cloud Software Privacy Trade-Offs
+* Mobile App with Flutter: ACM Student Club News App
+* Django: A Python Web Application Framework
+* Example: Web Scraping to Gather Data for a Discord Bot
 
 ### 2019 Fall
 * Fantasy Name Generator
