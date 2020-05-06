@@ -22,6 +22,10 @@ Below is a list of topics that have been discussed in previous `{code|friday}` m
 * Django: A Python Web Application Framework
 * Example: Web Scraping to Gather Data for a Discord Bot
 * "Farm Track" -- an Electron Application
+* Botnet Detection
+* Chess Project / Chess Bot
+* "Cedar" LMS System in NodeJS
+* "Juniper" Virtual Lab assistant tool in NodeJS with WebRTC
 
 ### 2019 Fall
 * Fantasy Name Generator
