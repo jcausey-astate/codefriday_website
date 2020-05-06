@@ -11,6 +11,15 @@
     
     
     <item>
+      <title>2020 Spring</title>
+      <link>https://codefriday.cs.astate.edu/rankings/2020-spring/</link>
+      <pubDate>Wed, 06 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://codefriday.cs.astate.edu/rankings/2020-spring/</guid>
+      <description>Click to see the cumulative final results, following all &lt;code&gt;{code|friday}&lt;/code&gt; events for the 2020 Spring semester.</description>
+    </item>
+    
+    <item>
       <title>{challenge}</title>
       <link>https://codefriday.cs.astate.edu/challenge/</link>
       <pubDate>Tue, 14 Jan 2020 13:32:32 -0600</pubDate>
